@@ -1,0 +1,110 @@
+body {
+    font-family: GT Walsheim, ui-sans-serif;
+    font-size: large;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+/* Header */
+#header {
+    background-color: #C0DEFE;
+    padding: 1.5em;
+}
+
+/* Hours */
+#hours .hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #C0DEFE;
+    border-radius: 5px;
+    border: solid 1px #000000;
+    box-shadow: 4px 5px 10px grey;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+#hours span {
+    font-size: larger;
+}
+
+/* Contact */
+#contact {
+    background-color: #1261A0;
+    padding: 30px;
+    color: #ffffff;
+}
+.warning {
+    text-align: center;
+    color: orange;
+}
+
+/* Localisation */
+#localisation {
+    padding: 30px;
+}
+#localisation span {
+    font-size: xx-large;
+}
+
+/* Button */
+.btn {
+    background-color: #FFC30B;
+    text-transform: uppercase;
+    border: solid 2px #000000;
+    box-shadow: 4px 5px 10px grey;
+}
+.btn:hover {
+    transition: ease .2s;
+    background-color: #ffffff;
+}
+
+/* Images */
+#contact .image {
+    width: 150px;
+}
+
+#localisation .image {
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px grey;
+    width: 100%;
+}
+
+/* Footer */
+#footer {
+    background-color: #C0DEFE;
+    padding: 20px;
+}
+#footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+    #hours .hours {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    #localisation span {
+        font-size: 20px;
+    }
+    #hours span {
+        font-size: 16px;
+    }
+}
+
